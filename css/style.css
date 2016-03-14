@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
@@ -5,7 +8,7 @@
 
 .top-navigation > .content {
 	width: 970px;
-	height: 70px;
+	height: 4.375rem;
 	margin: 0 auto;
 }
 
@@ -15,7 +18,7 @@
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
-	margin-top: 25px;
+	margin-top: 20px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -45,3 +48,37 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.introduction {
+	background-image: url('/Users/SarahWebsterSmith/Desktop/Thinkful\ Projects/startup-landing-page-clone/images/first-background.jpg ');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938em;
+}
+
+.introduction .content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.intoduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
