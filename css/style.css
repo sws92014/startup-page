@@ -113,14 +113,25 @@ button:hover {
 
 .cases .content {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	padding-top: 50px;
 	-webkit-font-smoothing: antialiased;
 }
 
 .devices > li {
+	vertical-align: top;
 	display: inline-block;
+	width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	padding-top: 5px;
+	text-align: center;
 }
+
 
 
 
