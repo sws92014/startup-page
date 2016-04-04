@@ -128,13 +128,31 @@ button:hover {
     margin-right: auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	padding-top: 5px;
+	padding-top: 20px;
 	text-align: center;
 }
 
+.vertical-line {
+	border-top:1px solid #c00;
+	border-bottom:1px solid #c00;
+	color: black;
+}
 
+.social .content h5 {
+	margin-top: 100px;
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
 
-
+.media-icons > li i {
+	display: inline-block;
+	padding-bottom: 2em;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
