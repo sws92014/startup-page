@@ -112,12 +112,15 @@ button:hover {
 }
 
 .cases .content {
-	text-align: center;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 	font-size: 25px;
 	padding-top: 50px;
 	-webkit-font-smoothing: antialiased;
+}
+
+.cases {
+	text-align: center;
 }
 
 .devices > li {
@@ -129,7 +132,11 @@ button:hover {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	padding-top: 20px;
-	text-align: center;
+}
+
+.devices {
+	margin: 0;
+	padding: 0;	
 }
 
 .vertical-line {
@@ -143,12 +150,11 @@ button:hover {
 .social .content h5 {
 	margin-top: 100px;
 	color: black;
-	text-align: center;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
 }
 
-.media-icons > li i {
+.media-icons > li {
 	display: inline-block;
 	padding-bottom: 2em;
 	padding: 1em;
@@ -156,6 +162,14 @@ button:hover {
 	margin-right: auto;
 }
 
+.media-icons {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	text-align: center;
+}
 
 
 
