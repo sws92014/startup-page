@@ -111,10 +111,10 @@ button:hover {
 	background-color: #c93e11;
 }
 
-.cases .content {
-	font-weight: 300;
+.cases .content > h2 {
+	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
-	font-size: 25px;
+	font-size: 45px;
 	padding-top: 50px;
 	-webkit-font-smoothing: antialiased;
 }
@@ -150,7 +150,7 @@ button:hover {
 .social .content h5 {
 	margin-top: 100px;
 	color: black;
-	font-weight: 300;
+	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
 }
 
